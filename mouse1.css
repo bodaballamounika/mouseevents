@@ -1,0 +1,36 @@
+#top-btn{
+    text-align: center;
+    margin-left: 45%;
+    font-size: large;
+}
+div{
+    
+   background-color: aquamarine;
+    display: inline-block;
+    padding: 1%;
+    margin: 7.5%;
+}
+div>h3{
+    background-color: coral;
+    text-align: center;
+    padding: 10%;
+}
+div>p{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10%;
+}
+@media screen and(max-width:600px){
+    div{
+        background-color: aquamarine;
+        display: inline-block;
+        padding: 1%;
+        margin: 7%;
+    }
+    div>h3{
+        padding:10%;
+    }
+    div>p{
+        padding: 10%;
+    }
+}
